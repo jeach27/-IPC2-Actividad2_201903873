@@ -18,8 +18,8 @@ print("Node Value : %s \n" % getNodeText(name))
 
 staffs = doc.getElementsByTagName("staff")
 for staff in staffs:
-        sid = staff.getAttribute("id")
-        nickname = staff.getElementsByTagName("nickname")[0]
-        credit = staff.getElementsByTagName("credits")[0]
-        print("carné:%s, nombre:%s, creditos:%s" %
-              (sid, getNodeText(nickname), getNodeText(credit)))
+    sid = staff.getAttribute("id")
+    nickname = staff.getElementsByTagName("nickname")[1]
+    credit = staff.getElementsByTagName("credits")[0]
+    print("carné:%s, nombre:%s, creditos:%s" %
+    (sid, getNodeText(nickname), getNodeText(credit)))

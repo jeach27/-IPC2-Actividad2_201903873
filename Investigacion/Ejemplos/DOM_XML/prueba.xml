@@ -1,8 +1,8 @@
-<?xml version="1.0"?>
 <faculty>
     <name>Estudiantes</name>
     <staff id="201903873">
         <nickname>Joaquin</nickname>
+        <nickname>Jon</nickname>
         <credits>100</credits>
     </staff>
     <staff id="201909011">
