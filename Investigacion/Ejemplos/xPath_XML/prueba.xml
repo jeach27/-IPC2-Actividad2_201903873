@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<faculty>
+    <name>Estudiantes</name>
+    <staff id="201903873">
+        <nickname>Joaquin</nickname>
+        <credits>100</credits>
+    </staff>
+    <staff id="201909011">
+        <nickname>Jose</nickname>
+        <credits>105</credits>
+    </staff>
+    <staff id="201908765">
+        <nickname>Pablo</nickname>
+        <credits>112</credits>
+    </staff>
+</faculty>
